@@ -1,0 +1,67 @@
+GO Programming Language developed at Google in 2007
+Open-sourced in 2009
+
+Evolution of infrastructure:
+infrastructure changed a lot
+    Multicore Processors
+    Cloud infrastructure
+    Big Networked Computation Clusters
+        Scalable & Distributed
+        Dynamic
+        More Capacity
+
+Existing Programming Languages did not fully take advantage of it.
+
+example:
+1 task at time vs doing multiple tasks at onece
+google drive: (in parallel)
+    Downloading
+    Uploading
+    Navigating
+
+Multi-Threading:
+Do multiple things at onece
+YOutube
+    Watching
+    Commenting
+    like
+    subscribe 
+
+
+Challenges of MUlti_threading:
+    Multiple users editing the same document
+    Multiple users booking at the same time
+
+Concurrency is about dealing with lots of things at once
+Developers need to write code to prevent conflicts
+            (when tasks run in parallel)
+            (accessing shared data)
+
+Multi-core Concurrency Support:
+Built-in Concurrency Mechanism
+C++,Java,GO
+c++,java were
+    Complex code
+    Expensive & Cheap
+GO
+    Go was designed to run on multiple cores and built to support concurrency
+    concurrency in GO is cheap and easy
+
+No Built-in Concurrency Mechanism
+    python,nodejs
+
+Main use case of GO
+    Writing applications thats need to be For Performant applications and run on modren distributed infrastrucuture with hundreads and thousands of severs typically in a a cloud platform.
+
+
+Characterstics of GO
+    For develipinf go they wanted to take the simplicity of syntax of more high-level language like python and the speed amd efficiency of a lower level like C++, so you will see the combination of these things in go.
+    i have to note that go is used on the server side aor back inside of the applications and these types of applications can range from microservices and web applications to database services and so on in facr many cloud technologies or technologies that run on modern cloud environments are actually written in go like docker, hashicorp vault, k8s , cockroachDB and so on.
+
+    Simple SYntax: Easy to learn, read and write code
+    FAst build time, start up and run
+    Requires fewer resources
+    complies into single binary (machine code)
+    faster than interpreted language, like python
+    consitent across diffrent os
+    

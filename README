@@ -1,0 +1,4 @@
+1. Everything on the GO is based on packages.
+2. Import "fmt" is used for priniting the lines.
+3. To run the program: go run main.go
+4. To build the program: go build main.go
