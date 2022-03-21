@@ -1,8 +1,26 @@
-package is a Go keyword that defines which code bundle this file belongs to. There can be only one package per folder, and each .go file has to declare the same package name at the top of its file. In this example, the code belongs to the main package.
+Hello World Example
+A Go program basically consists of the following parts −
 
-import is a Go keyword that tells the Go compiler which other packages you want to use in this file. Here you import the fmt package that comes with the standard library. The fmt package provides formatting and printing functions that can be useful when developing.
+Package Declaration
+Import Packages
+Functions
+Variables
+Statements and Expressions
+Comments
+Let us look at a simple code that would print the words "Hello World" 
 
-fmt.Println is a Go function, found in the fmt package, that tells the computer to print some text to the screen.
 
-You follow the fmt.Println function by a sequence of characters, like "Hello, World!", enclosed in quotation marks. Any characters that are inside of quotation marks are called a string. The fmt.Println function will print this string to the screen when the program runs.
+Let us take a look at the various parts of the above program −
+
+The first line of the program package main defines the package name in which this program should lie. It is a mandatory statement, as Go programs run in packages. The main package is the starting point to run the program. Each package has a path and name associated with it.
+
+The next line import "fmt" is a preprocessor command which tells the Go compiler to include the files lying in the package fmt.
+
+The next line func main() is the main function where the program execution begins.
+
+The next line /*...*/ is ignored by the compiler and it is there to add comments in the program. Comments are also represented using // similar to Java or C++ comments.
+
+The next line fmt.Println(...) is another function available in Go which causes the message "Hello, World!" to be displayed on the screen. Here fmt package has exported Println method which is used to display the message on the screen.
+
+Notice the capital P of Println method. In Go language, a name is exported if it starts with capital letter. Exported means the function or variable/constant is accessible to the importer of the respective package.
 
