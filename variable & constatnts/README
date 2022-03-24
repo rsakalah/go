@@ -1,0 +1,12 @@
+Variables:
+    Variables are used to store values
+    Like containers for values
+    Give the variable a name & reference everywhere in the app
+
+Benfits
+    Update the value only once!
+    Make our app more flexiable.
+
+examle: 
+    ConferenceName = "Python Conference"
+    
