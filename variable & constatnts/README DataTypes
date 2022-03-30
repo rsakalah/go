@@ -1,0 +1,23 @@
+They were three types of datatypes
+
+atomic data types
+    string
+    int
+    int32
+    int64
+    uint    (unsign intergers)
+    uint32
+    uint64
+
+unsafe
+    Pointers
+
+Abstract data types
+    map[]<datatype>
+    struct{}
+    interface{}
+
+
+string:
+    A string is a slice of bytes in Go. Strings can be created by enclosing a set of characters inside double quotes " ".
+
